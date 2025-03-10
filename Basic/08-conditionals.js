@@ -63,7 +63,7 @@ switch (day) {//usar break al final de cada case, para que finalize
         dayName = "Domingo"
     break
 
-    default://usar siempre si la inicializacion no es ninguna
+    default://usar siempre si la inicializacion no es ninguna pue!
         dayName = "numero de dia no exite"
 }
 
