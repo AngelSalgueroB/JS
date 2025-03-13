@@ -1,3 +1,9 @@
+/* Guardar cambios en el Git hub
+git add .
+git commit - m "text"
+git push origin master
+*/
+
 //Cadenas de texto:
 console.log("Hello JS World!")
 console.log('Hello JS World!')

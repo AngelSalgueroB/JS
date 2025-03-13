@@ -30,10 +30,10 @@ else {//se ejecuta cuando ninguna condicion de arriba se cumple
     console.log(`Mi edad no es ${age} pero ya eres mayor de edad`)
 }
 
-//Operadores ternarios ? :
+//Operadores ternarios ? : (es como escribir mas rapido un if y else)
 console.log("Operadore ternario:")
 
-const message = age == 10 ? "mi edad es 46" : "Mi edad no es 46"
+const message = age == 46 ? "Mi edad es 46": "Mi edad no es 46"
 console.log(message)
 
 //switch: una unica variable para varias condiciones (anidar varios else if)
@@ -63,7 +63,7 @@ switch (day) {//usar break al final de cada case, para que finalize
         dayName = "Domingo"
     break
 
-    default://usar siempre si la inicializacion no es ninguna pue!
+    default://usar siempre si la inicializacion no es ninguna!
         dayName = "numero de dia no exite"
 }
 
