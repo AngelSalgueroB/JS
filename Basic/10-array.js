@@ -63,7 +63,6 @@ console.log(myArray)
 // 5 slice, obtener la posicion y hasta donde (este ultimop no lo considera)
 myArray.push("Angel", "Eduardo", "Salguero", 46, true)
 console.log(myArray)
-
 let myNewArray = myArray.slice(0,1)//desde 0 al 1, pero sin tenerlo en cuenta
 console.log(myArray)
 console.log(myNewArray)
