@@ -33,9 +33,10 @@ console.log(greeting.replace("hola", "hi"))//reemplazar hola por hi
 let message = `hola Chino 
 , como estas`//Para poder usar varias lneas solo funciona con el acento invertido.
 console.log(message)
+
 //Interpolacion incluye variables en las cadenas de texto dentro de un ``
 let mail = "angelsalguero@sml.com"
-console.log(`hola, ${myName}! tu correo es: ${mail}`)
+console.log(`hola, ${myName} tu correo es: ${mail}`)
 
 
 
